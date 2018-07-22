@@ -1,0 +1,751 @@
+body {
+	background-color: #d8cdd3;	
+	font-family: 'Amiko', sans-serif;
+}
+
+.container {
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.col-md-3 .col-sm-6 {
+	color: black;
+}
+
+aside h2 {
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+#interet {
+	line-height: 25px;
+}
+
+h1, h2, h3 {
+	font-family: 'Merienda', cursive;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-bottom: 25px;
+	color: #000000;
+}
+
+section section h2 {
+	margin-top: 25px;
+
+}
+
+p.langage {
+	font-family: 'Merienda', cursive;
+	color: #c8c3c3;
+	margin-bottom: 0;
+	line-height: 35px;
+}
+
+.icone-langage {
+	margin-top: 30px;
+}
+
+#avril {
+	line-height: 0;
+	margin-bottom: 0;
+	margin-top: 35px;
+}
+
+#apprenti {
+	margin-top: 25px;
+}
+
+.plein {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.vide {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#reconvertion {
+	text-decoration: underline;
+}
+
+.drapeau {
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+.annee {
+	color: #a351f6;
+	font-family: 'Merienda', cursive;
+	margin-top: -21px;
+
+}
+
+.certificat {
+	background-image: url(../img/logo-certificat5.png);
+	background-repeat: no-repeat;
+	
+}
+
+.col-md-3 {
+	padding-left: 0;
+}
+
+.certificat-date {
+	color: #a351f6;
+	font-family: 'Merienda', cursive;
+	margin-top: -47px;
+	margin-bottom: 0;
+}
+
+.certificat-text {
+	font-family: 'Amiko', sans-serif;
+}
+
+.cci {
+	font-family: 'Amiko', sans-serif;
+	color: black;
+}
+
+.cci-gras {
+	font-weight: bold;
+
+}
+
+#formation-2016 {
+	margin-top: 7px;
+}
+
+#un {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#deux {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-left: black solid 4px;
+}
+
+p {
+	line-height: 50px;
+}
+
+i {
+	font-size: 50px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 992px) { /* Ordi */
+	.container {
+		width: 970px;
+		background-color: #ffffff;
+		border: 3px black solid;		
+	}
+
+	.lien {
+		line-height: 20px;
+		margin-top: 20px;
+	}
+	a:link {
+		color: #a351f6;
+	}
+	a:visited {
+		color: #a351f6;
+	}
+
+	.formation-experience {
+		width: 446px;
+		border-left: 2px black solid;
+		margin-left: 20px;
+	}
+
+	/* Gros point */
+	.point-integrateur-web {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -31px;
+	    top: 0px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 20px;
+	    width: 20px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+	.point-formations-experience {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -30px;
+	    top: -35px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 20px;
+	    width: 20px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+	/* Petit point */
+	.point-formations-experience-2018 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -26px;
+	    top: -52px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;	
+	}
+
+	.point-formations-bac {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -40px;
+	    top: -49px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+	#point-formations-juin16 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -26px;
+	    top: -52px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;	
+	}
+
+	#point-formations-avril16 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -26px;
+	    top: 48px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+	.point-formations-2002 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -41px;
+	    top: -52px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+	
+}
+
+
+@media (min-width: 768px) { /* Tablette */
+	.container {
+		width: 750px;
+		border: 3px black solid;
+	}
+
+	.lien {
+		line-height: 20px;
+		margin-top: 20px;
+		color: pink;
+	}
+	a:link {
+		color: #a351f6;
+	}
+	a:visited {
+		color: #a351f6;
+	}
+
+	.formation-experience {
+		width: 446px;
+		border-left: 2px black solid;
+		margin-left: 20px;
+	}
+
+	/* Gros point */
+	.point-integrateur-web {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -29px;
+	    top: 0px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 20px;
+	    width: 20px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+		.point-formations-experience {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -30px;
+	    top: -35px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 20px;
+	    width: 20px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+	/* Petit point */
+	.point-formations-experience-2018 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -26px;
+	    top: -52px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;	
+	}
+
+	.point-formations-bac {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -40px;
+	    top: -49px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+	.point-formations-cci {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -40px;
+	    top: -49px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+	.point-formations-2016 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -3px;
+	    top: -69px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+
+	#point-formations-juin16 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -26px;
+	    top: -52px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;	
+	}
+
+	#point-formations-avril16 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -26px;
+	    top: 48px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+
+	.point-formations-2002 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -41px;
+	    top: -52px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+
+	.point-experience-2000 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -19px;
+	    top: -56px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 15px;
+	    width: 15px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+
+	.recherche {
+		font-weight: bold;
+		margin-left: 50px;
+	}
+
+	.certificat-text {
+		line-height: 18px;
+		font-size: 0.8em;
+		font-weight: 600;
+		margin-bottom: 25px;
+		color: black;
+	}
+
+	.cci {
+		line-height: 25px;
+	}
+
+	
+}
+
+@media (max-width: 768px) { /* Smartphone */
+	.container {
+		width: none;
+		border: none;
+		
+	}
+
+	.lien {
+		line-height: 20px;
+		margin-top: 20px;
+		color: pink;
+	}
+	a:link {
+		color: #a351f6;
+	}
+	a:visited {
+		color: #a351f6;
+	}
+
+	#deux {
+		margin-left: 1%;
+	}
+
+	.recherche {
+		margin-left: 2.5px;
+		font-weight: bold;
+		line-height: 25px;
+	}
+
+	h1 {
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+
+	h2 {
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+
+	h3 {
+		font-size: 1.1em;
+	}
+
+	/* Gros point */
+	.point-integrateur-web {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -24px;
+	    top: -7px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+		.point-formations-experience {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -24px;
+	    top: -30px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+	/* Petit point */
+	.point-formations-experience-2018 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -24px;
+	    top: -53px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;	
+	}
+
+	.point-formations-bac {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -40px;
+	    top: -49px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+	.point-formations-cci {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -39px;
+	    top: -156px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;
+	}
+
+	.point-formations-2016 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -24px;
+	    top: -54px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+	#point-formations-juin16 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -39px;
+	    top: -54px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;	
+	}
+
+	#point-formations-avril16 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -39px;
+	    top: 46px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+
+	.point-formations-2002 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -39px;
+	    top: -54px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+
+	.point-experience-2000 {
+		background-repeat: no-repeat;
+		position: relative;
+		left: -39px;
+	    top: -54px;
+		position: relative;
+	    display: inline-block;
+	    background-color: black;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 100%;
+	    border: 1px solid black;
+	    margin-left: 2.5px;
+	    margin-top: 0px;
+	    text-align: left;		
+	}
+
+	.certificat-text {
+		line-height: 18px;
+		font-size: 0.8em;
+		font-weight: 600;
+		margin-bottom: 25px;
+		color: black;
+
+	}
+
+	.cci {
+		line-height: 25px;
+		font-size: 0.8em;
+		height: 150px;
+
+	}
+}
