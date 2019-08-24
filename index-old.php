@@ -1,4 +1,4 @@
-<!-- TODO - Mettre des images dans le portfolio au lieu de simple adresse URL -->
+<!-- Plus de technologie : cliquez-ici -->
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -30,6 +30,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
 
+		
 	</head>
 
 	<body>
@@ -75,13 +76,6 @@
 							<div class="row">
 								<div class="col-md-12">
 									<p>contact@marclandmann.com</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<a href="https://fr.linkedin.com/in/marc-landmann-267051ba" alt="Lien vers le linkedin de Marc Landmann" title="Lien vers le réseau social Linkedin de Marc Landmann" target="_blank">
-										<i class="fab fa-linkedin"></i>
-									</a>
 								</div>
 							</div>
 							<div class="row">
@@ -142,22 +136,14 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-6 col-sm-6 col-xs-12" id="espagnol">
-									<img src="img/drapeau-espagnol.png" alt="Drapeau espagnol" class="drapeau" /><br />
-									<span id="plein10" style="display: none;"></span>
-									<span id="vide10" style="display: none;"></span>
-									<span id="vide10" style="display: none;"></span>
-									<span id="vide10" style="display: none;"></span>
-									<span id="vide10" style="display: none;"></span>
-								</div>
-								<div class="col-md-6 col-sm-6 col-xs-12" id="alsacien">
+								<div class="col-md-12 col-sm-12 col-xs-12" id="alsacien">
 									<img src="img/blason-haute-basse-alsace.png" alt="Blason de la haute et base Alsace" class="drapeau" /><br />		
 									<span id="plein9" style="display: none;"></span>
 									<span id="plein9" style="display: none;"></span>
 									<span id="plein9" style="display: none;"></span>
 									<span id="plein9" style="display: none;"></span>
 									<span id="vide9" style="display: none;"></span>
-								</div>	
+								</div>
 							</div>
 						</div>
 					</aside>
@@ -175,7 +161,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12">
-									<p id="interet">					
+									<p id="interet">
 										Assemblage de PC (hardware et software), passionné de voyages, par la culture indienne, l'histoire, le sport (semi-marathon, musculation - méthode Lafay), la musique (pratique de la guitare et danse la salsa)
 									</p>
 								</div>
@@ -258,132 +244,6 @@
 											<span id="plein6" style="display: none;"></span>
 											<span id="vide6" style="display: none;"></span>
 											<span id="vide6" style="display: none;"></span>
-										</div>
-										<div class="col-md-4 col-sm-6 icone-langage">
-											<img src="img/logo-html5.png" alt="Logo de HTML 5" />
-											<p class="langage">HTML 5</p>
-											<span id="plein21" style="display: none;"></span>
-											<span id="plein21" style="display: none;"></span>
-											<span id="plein21" style="display: none;"></span>
-											<span id="plein21" style="display: none;"></span>
-											<span id="plein21" style="display: none;"></span>
-										</div>
-										<div class="col-md-4 col-sm-6 icone-langage">
-											<img src="img/logo-git.png" alt="Logo de Git" />
-											<p class="langage">Git</p>
-											<span id="plein22" style="display: none;"></span>
-											<span id="plein22" style="display: none;"></span>
-											<span id="plein22" style="display: none;"></span>
-											<span id="plein22" style="display: none;"></span>
-											<span id="plein22" style="display: none;"></span>
-										</div>
-									</div>
-								</section>
-								<section class="col-md-12">
-									<div class="row">
-										<div class="col-md-12">
-											<h2>Savoir faire</h2>
-											<span class="point-formations-experience"></span>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6">
-											<p class="savoir-faire">Analyser les besoins du client</p>
-											<span id="plein11" style="display: none;"></span>
-											<span id="plein11" style="display: none;"></span>
-											<span id="plein11" style="display: none;"></span>
-											<span id="plein11" style="display: none;"></span>
-											<span id="vide11" style="display: none;"></span>
-										</div>
-										<div class="col-md-6">
-											<p class="savoir-faire">Établir un cahier des charges</p>
-											<span id="plein12" style="display: none;"></span>
-											<span id="plein12" style="display: none;"></span>
-											<span id="plein12" style="display: none;"></span>
-											<span id="vide12" style="display: none;"></span>
-											<span id="vide12" style="display: none;"></span>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6">
-											<p class="savoir-faire">Réaliser des support techniques</p>
-											<span id="plein13" style="display: none;"></span>
-											<span id="plein13" style="display: none;"></span>
-											<span id="plein13" style="display: none;"></span>
-											<span id="vide13" style="display: none;"></span>
-											<span id="vide13" style="display: none;"></span>
-										</div>
-										<div class="col-md-6">
-											<p class="savoir-faire">Analyser des problèmes techniques</p>
-											<span id="plein14" style="display: none;"></span>
-											<span id="plein14" style="display: none;"></span>
-											<span id="plein14" style="display: none;"></span>
-											<span id="vide14" style="display: none;"></span>
-											<span id="vide14" style="display: none;"></span>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-12">
-											<p id='demo3'>
-  												<span class="savoire-faire">Plus de savoir faire :</span> <a data-toggle="collapse" class="certificat-link" data-target="#demo3" id="demo2">Cliquez ici</a>
-  											</p>	
-  											<hr>
-  										</div>
-  									</div>
-									<div class="row plus-savoire-faire">
-										<div class="col-md-6">
-											<p class="savoir-faire">Rédiger une Spécification Technique de Besoin (STB)</p>
-											<span id="plein15" style="display: none;"></span>
-											<span id="plein15" style="display: none;"></span>
-											<span id="plein15" style="display: none;"></span>
-											<span id="vide15" style="display: none;"></span>
-											<span id="vide15" style="display: none;"></span>
-										</div>
-										<div class="col-md-6">
-											<p class="savoir-faire">Déterminer des mesures correctives</p>
-											<span id="plein16" style="display: none;"></span>
-											<span id="plein16" style="display: none;"></span>
-											<span id="vide16" style="display: none;"></span>
-											<span id="vide16" style="display: none;"></span>
-											<span id="vide16" style="display: none;"></span>
-										</div>
-									</div>
-									<div class="row plus-savoire-faire">
-										<div class="col-md-6">
-											<p class="savoir-faire">Traiter l'information (collecter, classer et mettre à jour)</p>
-											<span id="plein17" style="display: none;"></span>
-											<span id="plein17" style="display: none;"></span>
-											<span id="plein17" style="display: none;"></span>
-											<span id="vide17" style="display: none;"></span>
-											<span id="vide17" style="display: none;"></span>
-										</div>
-										<div class="col-md-6">
-											<p class="savoir-faire">Concevoir et développer les programmes et applications informatiques</p>
-											<span id="plein18" style="display: none;"></span>
-											<span id="plein18" style="display: none;"></span>
-											<span id="vide18" style="display: none;"></span>
-											<span id="vide18" style="display: none;"></span>
-											<span id="vide18" style="display: none;"></span>
-										</div>
-									</div>
-									<div class="row plus-savoire-faire">
-										<div class="col-md-12">
-											<p class="savoir-faire">Déterminer les phases et procédures de tests techniques et fonctionnels de programmes et applications informatiques</p>
-											<span id="plein19" style="display: none;"></span>
-											<span id="plein19" style="display: none;"></span>
-											<span id="vide19" style="display: none;"></span>
-											<span id="vide19" style="display: none;"></span>
-											<span id="vide19" style="display: none;"></span>
-										</div>
-									</div>
-									<div class="row plus-savoire-faire">
-										<div class="col-md-12">
-											<p class="savoir-faire">Réaliser un prototype de la solution technique pour validation par le donneur d'ordres (configuration type, ...)</p>
-											<span id="plein20" style="display: none;"></span>
-											<span id="plein20" style="display: none;"></span>
-											<span id="vide20" style="display: none;"></span>
-											<span id="vide20" style="display: none;"></span>
-											<span id="vide20" style="display: none;"></span>
 										</div>
 									</div>
 								</section>
@@ -514,20 +374,6 @@
 											<span class="point-formations-experience"></span>
 										</div>
 										<div class="col-md-12 annee formation-experience">
-											<p>Août 2019</p>
-											<span class="point-formations-experience-2018"></span>
-												<p class="cci">
-												<span class="cci-gras">Atelier Premier Avril</span><br />
-												Stage : web designer
-											</p>
-											<p>Juillet 2019</p>
-											<span class="point-formations-experience-2018"></span>
-												<p class="cci">
-												<span class="cci-gras">Jérôme Herr</span><br />
-												Stage : création d'un site web avec WordPress
-											</p>
-											<p>Juin 2019</p>
-											<span class="point-formations-experience-2018"></span>
 											<p>Avril 2019</p>
 											<span class="point-formations-experience-2018"></span>
 											<p class="cci">

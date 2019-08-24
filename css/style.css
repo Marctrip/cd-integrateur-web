@@ -10,6 +10,24 @@ body {
 
 }
 
+a {
+	margin: auto;
+	word-wrap: break-word;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+/* réseau social - Linkedin */
+a[href^="https://fr.linkedin.com"]:hover {
+    color: #0077b5;
+}
+
+hr {
+	border-top: 1px dashed rgba(0,0,0,.1);
+}
+
 .col-md-3 .col-sm-6 {
 	color: black;
 }
@@ -48,6 +66,13 @@ p.langage {
 	margin-top: 30px;
 }
 
+/* Savoir faire */
+
+p.savoir-faire {
+    line-height: 25px;
+    text-align: center;
+}
+
 #avril {
 	line-height: 0;
 	margin-bottom: 0;
@@ -58,7 +83,9 @@ p.langage {
 	margin-top: 25px;
 }
 
-.plein {
+
+/* Point - wordpress */
+#plein {
     position: relative;
     display: inline-block;
     background-color: black;
@@ -71,7 +98,7 @@ p.langage {
     text-align: left;
 }
 
-.vide {
+#vide {
     position: relative;
     display: inline-block;
     height: 15px;
@@ -82,6 +109,568 @@ p.langage {
     margin-top: 0px;
     text-align: left;
 }
+
+/* Point - référencement */
+#plein2 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#vide2 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+/* Point - photoshop */
+#plein3 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#vide3 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+/* Point - jquery */
+#plein4 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#vide4 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+/* Point - css */
+#plein5 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#vide5 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+/* Point - bootstrap */
+#plein6 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#vide6 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+/* HTML 5 */
+#plein21 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+/* Git */
+#plein22 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+/* Point - anglais */
+#plein7 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#vide7 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+div#anglais {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Point - allemand */
+#plein8 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#vide8 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+div#allemand {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Point - alsacien */
+#plein9 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#vide9 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+div#alsacien{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#plein10 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#vide10 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#plein11 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#vide11 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#plein12 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#vide12 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+div#espagnol{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#plein13 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#vide13 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#plein14 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#vide14 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#plein15 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#vide15 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#plein16 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#vide16 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#plein17 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#vide17 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#plein18 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#vide18 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 26%;
+}
+
+#plein19 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 39%;
+}
+
+#vide19 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 39%;
+}
+
+#plein20 {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 39%;
+}
+
+#vide20 {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    left: 39%;
+}
+
+div#espagnol{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+div#espagnol{
+    padding-right: 0;
+    padding-left: 0;
+}
+
 
 #reconvertion {
 	text-decoration: underline;
@@ -118,6 +707,13 @@ p.langage {
 
 .certificat-text {
 	font-family: 'Amiko', sans-serif;
+}
+
+.certificat-link {
+	color: #a351f6!important;
+	font-family: 'Merienda', cursive;
+	margin-top: -47px;
+	margin-bottom: 0;
 }
 
 .cci {
